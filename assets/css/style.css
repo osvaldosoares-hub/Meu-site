@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #000;
+    background-image: url('../img/papel.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.header p{
+    margin-left: 10px;
+}
+.section{
+    display: flex;
+}
+.Perfil{
+    width: 40%;
+    text-align: justify;
+    margin-left: 20px;
+}
+.git{
+    width: 60%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.git .user-img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.git .link{
+    text-decoration: none;
+    color: #000;
+}
+.outras-pags{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0 40px 0 ;
+    
+      
+}
+.outras-pags a{
+    text-decoration: none;
+    
+}
+.containe{
+    display: flex;
+    flex-direction: column;
+
+}
+.hidden{
+    opacity: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+.fechar{
+    color: blue;
+    cursor: pointer;
+}
+
+
+
