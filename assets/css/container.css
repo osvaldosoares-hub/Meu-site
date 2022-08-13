@@ -10,7 +10,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 70vh;
     border-radius: 50px;
     color: rgb(75, 2, 211);
     cursor: pointer;
@@ -31,23 +31,14 @@
   
   .active {
     flex: 5;
-    height: 80vh;
+    height: 70vh;
   }
   .active h2 {
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;
   }
   
-  @media (max-width: 480px) {
-    .container {
-      width: 100vw;
-    }
-  
-    .painel :nth-of-type(4),
-    .painel :nth-of-type(5) {
-      display: none;
-    }
-  }
+ 
 
   .experiencia{
     display: flex;
@@ -58,5 +49,30 @@
   .experiencia img{
     margin: 10px;
     
+  }
+  @media (max-width: 580px) {
+    .container {
+      width: 100vw;
+      
+    }
+  
+    .painel :nth-of-type(4),
+    .painel :nth-of-type(5) {
+      display: none;
+     
+      
+    }
+    .painel{
+      height: 50vh;
+    }
+    .active{
+      height: 50vh;
+    }
+    .experiencia{
+      margin-right: 0px;
+    }
+    .experiencia img{
+      width: 24px;
+    }
   }
   

@@ -1,7 +1,7 @@
 const panels = document.querySelectorAll('.painel')
 
 panels.forEach(panel => {
-    panel.addEventListener('mouseover', () => {
+    panel.addEventListener('click', () => {
 
         
         removeActiveClasses()
